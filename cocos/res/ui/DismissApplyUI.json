@@ -1,0 +1,657 @@
+{
+  "ID": "2cd44b50-fe99-4029-9561-46c1bc8bf17e",
+  "Version": "3.10.0.0",
+  "Name": "DismissApplyUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1133,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1135,
+            "ActionTag": -477483881,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4297,
+              "Y": 0.625
+            },
+            "LeftMargin": 365.0,
+            "RightMargin": 365.0,
+            "TopMargin": 135.0,
+            "BottomMargin": 135.0,
+            "Tag": 1136,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BackGround/player_win.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 182,
+                "Scale9OriginY": 141,
+                "Scale9Width": 188,
+                "Scale9Height": 146,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 275.0,
+                  "Y": 225.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0036,
+                  "Y": 0.9511
+                },
+                "LeftMargin": -1.0,
+                "RightMargin": -1.0,
+                "TopMargin": 11.0,
+                "BottomMargin": 11.0,
+                "Tag": 1137,
+                "ActionTag": -561073976,
+                "Size": {
+                  "X": 552.0,
+                  "Y": 428.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "DismissApplyUI/dismiss_apply_title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 65,
+                "Scale9OriginY": 17,
+                "Scale9Width": 67,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 274.5171,
+                  "Y": 385.8427
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4991,
+                  "Y": 0.8574
+                },
+                "PreSize": {
+                  "X": 0.3582,
+                  "Y": 0.12
+                },
+                "LeftMargin": 176.0171,
+                "RightMargin": 176.9829,
+                "TopMargin": 37.1573,
+                "BottomMargin": 358.8427,
+                "Tag": 12,
+                "ActionTag": 1604696493,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 54.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 480,
+                  "Height": 290
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 275.0,
+                  "Y": 47.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1044
+                },
+                "PreSize": {
+                  "X": 0.8727,
+                  "Y": 0.6444
+                },
+                "LeftMargin": 35.0,
+                "RightMargin": 35.0,
+                "TopMargin": 113.0,
+                "BottomMargin": 47.0,
+                "Tag": 1138,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": -397,
+                    "Scale9OriginY": -25,
+                    "Scale9Width": 794,
+                    "Scale9Height": 50,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.2069
+                    },
+                    "TopMargin": 230.0,
+                    "Tag": 1139,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "ClubRoomDetailUI/club_room_detail_cell_bg.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 104,
+                        "Scale9OriginY": 21,
+                        "Scale9Width": 110,
+                        "Scale9Height": 24,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.5
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 0.9667
+                        },
+                        "TopMargin": 1.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 1140,
+                        "ActionTag": 227385058,
+                        "Size": {
+                          "X": 480.0,
+                          "Y": 58.0
+                        },
+                        "Name": "cell_bg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "LabelText": "20号桌玩家申请中途解散房间",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 9.6,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 165,
+                          "G": 42,
+                          "B": 42
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.02,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.55,
+                          "Y": 0.3833
+                        },
+                        "LeftMargin": 9.6,
+                        "RightMargin": 206.4,
+                        "TopMargin": 18.5,
+                        "BottomMargin": 18.5,
+                        "Tag": 1141,
+                        "ActionTag": 1718075339,
+                        "Size": {
+                          "X": 264.0,
+                          "Y": 23.0
+                        },
+                        "Name": "msg_label",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "ClubMemberUI/club_mem_mark_agree.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 140,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 436.511,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.9094,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3542,
+                          "Y": 0.9667
+                        },
+                        "LeftMargin": 351.511,
+                        "RightMargin": -41.511,
+                        "TopMargin": 1.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 1142,
+                        "ActionTag": -1663406957,
+                        "Size": {
+                          "X": 170.0,
+                          "Y": 58.0
+                        },
+                        "Name": "agree_btn",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "ClubMemberUI/club_mem_refuse.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 140,
+                        "Scale9Height": 36,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 338.367,
+                          "Y": 30.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.7049,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3542,
+                          "Y": 0.9667
+                        },
+                        "LeftMargin": 253.367,
+                        "RightMargin": 56.633,
+                        "TopMargin": 1.0,
+                        "BottomMargin": 1.0,
+                        "Tag": 1143,
+                        "ActionTag": -1276930282,
+                        "Size": {
+                          "X": 170.0,
+                          "Y": 58.0
+                        },
+                        "Name": "refuse_btn",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 1270595422,
+                    "Size": {
+                      "X": 480.0,
+                      "Y": 60.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "item_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -154544670,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 290.0
+                },
+                "Name": "msg_scroll",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Default/close_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 64,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 505.6044,
+                  "Y": 375.4333
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9193,
+                  "Y": 0.8343
+                },
+                "PreSize": {
+                  "X": 0.1564,
+                  "Y": 0.1911
+                },
+                "LeftMargin": 462.6044,
+                "RightMargin": 1.3956,
+                "TopMargin": 31.5667,
+                "BottomMargin": 332.4333,
+                "Tag": 1173,
+                "ActionTag": 362822652,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 86.0
+                },
+                "Name": "close_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1700536933,
+            "Size": {
+              "X": 550.0,
+              "Y": 450.0
+            },
+            "Name": "dismiss_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/player_win.png",
+        "ClubMemberUI/club_mem_mark_agree.png",
+        "ClubMemberUI/club_mem_refuse.png",
+        "ClubRoomDetailUI/club_room_detail_cell_bg.png",
+        "Default/close_btn.png",
+        "DismissApplyUI/dismiss_apply_title.png",
+        "font/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
