@@ -802,6 +802,11 @@ class GameRoom(BaseEntity, GameObject, iRoomRules):
 					self.tiles = self.tiles[1:]
 					DEBUG_MSG("beginRound tile:{0} leftNum:{1}".format(ti, len(self.tiles)))
 					p.drawTile(ti, is_first)
+			else:
+				ti = self.tiles[0]
+				self.tiles = self.tiles[1:]
+				DEBUG_MSG("beginRound tile:{0} leftNum:{1}".format(ti, len(self.tiles)))
+				p.drawTile(ti, is_first)
 		else:
 			ti = self.tiles[0]
 			self.tiles = self.tiles[1:]
